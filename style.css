@@ -86,6 +86,72 @@ header{
   grid-auto-flow: dense;
 }
 
+
+}
+.box-image{
+  width: 500px;
+  height: auto;
+  
+}   
+
+.theBox1{
+        
+        width: 500px;
+        height: 600px;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        margin: 10px 0px 40px 15px;
+        display:inline-block;
+    }
+
+    .txtBox1{
+        padding:20px;
+        position: absolute;
+        height: auto;
+        width: 100%;
+        background-color:white;
+        bottom: 0; 
+    }
+
+
+    .theBox3{
+  
+      width: 500px;
+      height: 600px;
+      border-radius: 5px;
+      overflow: hidden;
+      position: relative;
+      margin: 10px 0px 40px 15px;
+      display:inline-block;
+  }
+
+  .txtBox3{
+      padding:20px;
+      position: absolute;
+      height: auto;
+      width: 100%;
+      background-color:white;
+      bottom: 0; 
+  }    
+h5{ 
+        padding:0px;
+        margin:10px 20px 10px 15px;
+        font-size:50px;
+        font-family: 'Cormorant Garamond', serif;
+        text-transform:uppercase;
+        color:rgb(26, 25, 25);
+    }
+
+h4{ 
+        padding:0px;
+        margin:10px 20px 50px 20px;
+        font-size:13;
+        font-weight:bold;
+        color:rgb(20, 20, 20);
+    }
+
+    
 /*MOBILE*/
 @media screen and (max-width: 320px){ 
   .navegador ul{
