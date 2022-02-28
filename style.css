@@ -69,7 +69,7 @@ header{
   gap:10px;
   justify-content: center;
   text-align: center;
-  background-color: #fff8f8;
+  background-color: #141212;
   font-family: 'Cormorant Garamond', serif;
 }
 .grid-item:hover {
@@ -91,6 +91,9 @@ header{
   height: auto; 
 }   
 
+.box-container{
+  padding: 80px;
+}
 .theBox1{
         
         width: 500px;
@@ -123,7 +126,7 @@ header{
   }
 
 .txtBox3{
-  padding:20px;
+  
   position: absolute;
   height: auto;
   width: 100%;
@@ -138,6 +141,11 @@ h5{
   text-transform:uppercase;
   color:rgb(26, 25, 25);
   }
+ h5:hover{
+   text-decoration: underline;
+   font-size: 55px;
+   text-shadow: 2px 2px 4px #000000;
+ } 
 
 h4{ 
   padding:0px;
