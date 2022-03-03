@@ -5,110 +5,88 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../style.css">
-	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <title>bootstrap</title>
+
+
 </head>
 
 <body>
 
-	<nav class="nav">
-		<ul>
+
+    <nav class="navegador">
+        <ul>
+            <li>
+                <a href="../sections/home.html"> <img class="logo1" src="../media/logo.1.png"></a>
+            </li>
+            <li>
+                <a href="../sections/home.html">Home</a>
+            </li>
+            <li>
+                <a href="../sections/about.html">About</a>
+            </li>
+            <li>
+                <a href="../sections/portfolio.html">Portfolio</a>
+            </li>
+            <li>
+                <a href="../sections/services.html">Services</a>
+            </li>
+            <li>
+                <a href="../sections/contact.html">Contact</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <section class="container text-light mt-5 rounded text-center">
+        <div class="row justify-content-center">
+            <div class="col-md-4 my-4">
+                <h1 class="h1">BOOK NOW</h1>
+            </div>
+        </div>
+        <div class="row pb-5">
+            <div class="col-lg-5 ">
+                <form action="#!" class="bg-dark
+               rounded p-2 ml-lg-4 p-md-4">
+                    <input type="text" class="form-control mb-2 " id="name" placeholder="Nombre">
+                    <input type="email" class="form-control mb-2" id="email" placeholder="Email">
+                    <textarea class="form-control mb-4" id="message" placeholder="Mensaje" rows="3"></textarea>
+                    <input class="btn btn-secondary
+                   btn-block" type="submit" value="Enviar">
+                </form>
+            </div>
+            <div class="col-lg-6 text-center text-lg-left pl-5">
+                <h3 class="mb-1 mt-5 mt-lg-0">Dirección</h3>
+                <p class="mb-0">Medellin, Poblado</p>
+                <p class="mb-0">Antioquia</p>
+                <p>Colombia</p>
+                <h3 class="mb-1">Telefono</h3>
+                <p>+54 11 1234-9874</p>
+                <h3 class="mb-1">Email</h3>
+                <p>contactanos@gmail.com</p>
+            </div>
+
+        </div>
+    </section>
 
 
-			<li>
-				<a href="../sections/home.html">Home</a>
-			</li>
-			<li>
-				<a href="../sections/about us.html">About</a>
-			</li>
-			<li>
-				<a href="../sections/portfolio.html">Portfolio</a>
-			</li>
-			<li>
-				<a href="../sections/services.html">Blog</a>
-			</li>
-			<li>
-				<a href="../sections/contact.html">Contact us</a>
-			</li>
-
-
-		</ul>
-
-	</nav>
-
-	<br>
-	<br>
-
-	<section class="section">
-		<article>
-			<div>
-				<h1>Contac us</h1>
-				<p>
-					<br>
-					<br>
-					Colombia +66 84 997 3430
-					<br>
-                    <br>
-					<br>
-				</p>
-
-				<form action="#">
-					<label for="Name">Nombre*
-						<input type="name" placeholder="name"><br>
-
-						<br>
-						<label for="Email">Email*
-							<input type="email" placeholder="aaa@gmail.com" name="email"><br>
-						</label>
-						<br>
-
-						<br>
-						<br>
-
-						<p>Elige el medio en que quieres que te contactemos</p>
-						<div>Email
-							<input type="radio" name="lado" value="izquierda">
-						</div>
-						<div>Mensajes
-							<input type="radio" name="lado" value="derecha">
-						</div>
-						<div>Llamadas
-							<input type="radio" name="lado" value="derecha">
-						</div>
-
-						<br>
-						<br>
-
-						<label for="Message">Message
-							<input type="message" placeholder="message" name="message"><br>
-						</label>
-
-						<br>
-						<br>
-						<div>Newsletter
-							<input type="checkbox" name="acepta" value="1">
-						</div>
-						<br>
-						<br>
-						<input type="submit" value="Claro que si!">
-						<input type="reset" value="Resetear">
-				</form>
-
-
-	</section>
-	</article>
-
-	<footer class="footer">
-		<p>
-		<h3>Privacy Policy</h3>
-		</p>
-		<p>
-		<h3>Terms</h3>
-		</p>
-		<p>
-		<h3>Maps</h3>
-		</p>
-	</footer>
+    <footer >
+        <div >
+        <h3>Privacy Policy</h3>
+        <h3>Terms</h3>
+        <h3>Maps</h3>
+        </div>
+        <div>
+        <img src="../media/instagram.png" alt="" width="40px height"=40px>
+        </div>
+    </footer>
+    
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 
 
 </body>
